@@ -28,7 +28,7 @@ resource "azurerm_storage_account" "example123" {
 
   azure_files_authentication {
       directory_type = "AD"
-#      default_share_level_permission = StorageFileDataSmbShareReader
+      default_share_level_permission = StorageFileDataSmbShareReader
   }  
 
 
